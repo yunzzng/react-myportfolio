@@ -1,0 +1,33 @@
+.headerContainer {
+  background-color: #1f1f1f;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #6700e6; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navButton {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  margin: 0 15px;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.navButton:hover {
+  background-color: #6700e6; 
+  color: #fff;
+  border: 2px solid #6700e6;
+}
+
+.navButton:focus {
+  outline: none;
+}
