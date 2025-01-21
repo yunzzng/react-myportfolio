@@ -44,3 +44,18 @@
     color: #717171;
     text-align: center;
 }
+
+.footerContact {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .footerContact a {
+    color: #6700e6; 
+    text-decoration: none;
+  }
+  
+  .footerContact a:hover {
+    text-decoration: underline;
+  }

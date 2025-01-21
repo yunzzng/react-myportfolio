@@ -1,5 +1,9 @@
 .headerContainer {
-  background-color: #1f1f1f;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  background-color: #1f1f1f; 
   padding: 20px;
   display: flex;
   justify-content: center;

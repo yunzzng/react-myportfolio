@@ -1,6 +1,5 @@
 import { FC, useMemo } from "react";
 import styles from "../css/footer.module.css";
-import instagramIcon from "/img/instagram.png";
 import linkedinIcon from "/img/linkedin.png";
 import githubIcon from "/img/github.png";
 
@@ -22,19 +21,17 @@ const Footer: FC<FooterProps> = ({ className }) => {
         <div className={styles.footerCopyright}>
           yunseul © 2025. All rights reserved.
         </div>
+        {/* 연락처 */}
+        <div className={styles.footerContact}>
+          <p>Email: <a href="mailto:yun.zzang9.me@gmail.com">yun.zzang9.me@gmail.com</a></p>
+          <p>Phone: <a href="tel:010-86491357">010-8649-1357</a></p>
+        </div>
         {/* 소셜 미디어 */}
         <div className={styles.footerSocial}>
           <a href="#linkedin">
             <img
               src={linkedinIcon}
               alt="LinkedIn"
-              className={styles.socialIcon}
-            />
-          </a>
-          <a href="#instagram">
-            <img
-              src={instagramIcon}
-              alt="Instagram"
               className={styles.socialIcon}
             />
           </a>
